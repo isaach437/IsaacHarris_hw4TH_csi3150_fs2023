@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topBar {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+  max-height: 50px;
+}
+
+#year {
+  height: min-content;
+}
+
+#maxM {
+  height: min-content;
+}
+#maxP {
+  height: min-content;
+}
+
+#make {
+  height: min-content;
+}
+
+#color {
+  height: min-content;
+}
+
+#cars {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #414141;
+  flex-shrink: 3;
+  flex-flow: space-between;
+  align-items: stretch;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  gap: 10px;
+  color: rgb(172, 160, 160);
+}

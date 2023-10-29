@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Used Cars</title>
+    <!--CSS File-->
+    <link rel="stylesheet" href="index.css" />
+    <!--JS File-->
+    <script src="index.js" defer></script>
+    <script src="usedCars.js" defer></script>
+  </head>
+
+  <body>
+    <form>
+      <div class="topBar">
+        <label for="minY">Year:</label>
+        <input type="text" id="year" />
+
+        <label for="make">Make:</label>
+        <input type="text" id="make" />
+
+        <label for="maxM">Max Mileage:</label>
+        <input type="text" id="maxM" />
+
+        <label for="maxP">Max Price:</label>
+        <input type="text" id="maxP" />
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" />
+      </div>
+    </form>
+
+    <div id="cars"></div>
+  </body>
+
+  <footer></footer>
+</html>
