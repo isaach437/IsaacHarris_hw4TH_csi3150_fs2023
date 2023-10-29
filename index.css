@@ -40,7 +40,7 @@
   background-color: #414141;
   flex-shrink: 3;
   flex-flow: space-between;
-  align-items: stretch;
+  justify-content: center;
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 20px;
